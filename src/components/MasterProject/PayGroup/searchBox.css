@@ -1,0 +1,49 @@
+#inputwrapperSB{
+    align-items: center;
+    width: 100%;
+    border: none;
+    gap: 10px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 2;
+   
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  
+    &:hover {
+      border-color: #40a9ff;
+    }
+  
+    &.focused {
+      border-color: #40a9ff;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+  
+    & input {
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.85);
+        height: 30px;
+        box-sizing: border-box;
+        padding: 4px 6px;
+        width: 100%; /* Set the input width to 100% */
+        border: 0;
+        margin: 0;
+        outline: 0;
+    }
+}
+.IpWD1{
+    width: 60%;
+    
+    align-items: center;
+    display: flex;
+    
+    
+}
+#searchIconSB{
+    font-size: 18px;
+   
+}

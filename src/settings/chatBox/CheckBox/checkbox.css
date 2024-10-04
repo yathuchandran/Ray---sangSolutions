@@ -1,0 +1,101 @@
+.checkboxmainD1{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+    padding-top: 0px;
+    
+    
+    
+}
+.checkboxmainD1C{
+    display: flex;
+   flex-direction: column;
+    /* justify-content: space-between; */
+    /* box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5); */
+    /* padding:2px 2px 2px 2px;
+    margin-top: 5px; */
+    
+}
+.CCNPCompanySearchBoxM{
+    display: flex;
+    flex-direction: row;
+    
+   /* justify-content: right; */
+   
+    margin-bottom: 2%;
+    margin-right: 0%;
+   
+  }
+  .CCNPCompanySearchBoxMS {
+    /* Fixed width */
+   
+     flex-direction: column;
+     width: 100%;
+     
+     height: 220px;
+     overflow: auto;
+     
+     border: 1px solid #969999;
+     padding:0 10px;
+    
+     box-sizing: border-box; /* Include padding and border in the width */
+   }
+   #checkboxmainD1CI1{
+    font-size: 16px;
+    margin-bottom: 5px;
+    /* margin-left: 5px; */
+    text-align: left;
+   }
+   #inputwrapperSB{
+    align-items: center;
+    width: 100%;
+    border: none;
+    gap: 10px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 2;
+   
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  
+    &:hover {
+      border-color: #000;
+    }
+  
+    &.focused {
+      border-color: #000;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+  
+    & input {
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.85);
+        height: 30px;
+        box-sizing: border-box;
+        padding: 4px 6px;
+        width: 100%; /* Set the input width to 100% */
+        border: 0;
+        margin: 0;
+        outline: 0;
+    }
+}
+.IpWD1{
+    width: 60%;
+    
+    align-items: center;
+    display: flex;
+    
+    
+}
+#searchIconSB{
+    font-size: 18px;
+   
+}
+#IpWSB{
+  font-size: 12px;
+}

@@ -1,0 +1,5 @@
+{
+    "baseUrl":"http://103.120.178.195/Sang.Ray.Mob.Api/Ray/",
+    "baseUrlWEB" : "http://103.120.178.195/Sang.Ray.Web.Api/Ray/",
+    "loginLogo": "/Images/sangsolution.png"
+}

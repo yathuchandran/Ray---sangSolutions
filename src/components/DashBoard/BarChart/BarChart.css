@@ -1,0 +1,64 @@
+/* StopCard.css */
+
+.stop-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.charts-header {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Add some spacing below the header */
+}
+
+
+
+.charts-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .charts-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Wrap to the next line when screen size is reduced */
+}
+
+.chart-container {
+    flex: 0 0 33.33%;
+    /* Set the width of each chart container for horizontal alignment */
+    padding: 10px;
+    /* Add spacing between charts */
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end; /* Move buttons to the right */
+  }
+  
+  .modal-buttons .btn-primary,
+  .modal-buttons .btn-danger {
+    margin-left: 10px; /* Adjust spacing between buttons */
+    width: 80px; /* Adjust the width of the buttons */
+  }
+  
+  
+  
+
+  
+
+  
